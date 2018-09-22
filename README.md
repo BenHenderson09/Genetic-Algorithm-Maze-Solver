@@ -3,6 +3,8 @@ This program is a [Genetic Algoritm](https://en.wikipedia.org/wiki/Genetic_algor
 that contains unknown obstacles. The program then uses a variety of techniques to achieve not only the path to the goal, but also the
 fastest route.
 
+![](https://github.com/BenHenderson09/GeneticAlgortim_MazeSolver/blob/master/gen19.png)
+
 ## Program details
 - Made with Processing (mainly used for shapes)
 - Uses no external machine learning libraries, completely from scratch
@@ -31,3 +33,6 @@ of the key components of genetic algoritms. The large blue dot is the best agent
 allow them to explore new routes. The algoritm may be able to get to the goal, but it could be going around a long path. By mutating these
 white dots, they can change their directions to explore different routes, many will die, but a few will find an easier path. The algoritm
 then learns from this new discovery.
+
+## Killing bad agents
+If agents are way off the goal or getting there too slowly, the program will kill them to cleanse the population from bad "genes", leaving only the good agents to form the next generation.
