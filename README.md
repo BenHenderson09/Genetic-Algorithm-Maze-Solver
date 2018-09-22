@@ -24,3 +24,10 @@ Calculating the fitness shows which agents are performing the best, this gives t
 Natural selection will calculate the parents for the next generation. This means that the fitness of each agent will be reviewed, and if
 the agent has a high fitness it will have a high chance of becoming the parent for an agent in the next generation. Using this technique
 we can form a new generation of optimized agents.
+
+## Mutation
+As you can see from the image above, no matter how fit the population of agents are, some will always die. This is not a flaw, but one
+of the key components of genetic algoritms. The large blue dot is the best agent, this agent will never die once it completes the maze successfully, but the white dots will die even after completing the maze. This is because the white dots will be mutated slightly to
+allow them to explore new routes. The algoritm may be able to get to the goal, but it could be going around a long path. By mutating these
+white dots, they can change their directions to explore different routes, many will die, but a few will find an easier path. The algoritm
+then learns from this new discovery.
