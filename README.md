@@ -1,5 +1,5 @@
 # GeneticAlgortim_MazeSolver
-This program is a [Genetic Algoritm](https://en.wikipedia.org/wiki/Genetic_algorithm) , that uses generations of "agents" to solve a maze 
+This program is a [Genetic Algorithm](https://en.wikipedia.org/wiki/Genetic_algorithm) , that uses generations of "agents" to solve a maze 
 that contains unknown obstacles. The program then uses a variety of techniques to achieve not only the path to the goal, but also the
 fastest route.
 
